@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+
+    background: rgb(58, 134, 233);
+    background: linear-gradient(90deg, rgb(217, 140, 236) 0%, rgba(2, 252, 234, 1) 100%);
+
+
+}
+.main{
+	position: relative;
+	min-height: 80vh;
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #e8e3ec;
+	border-radius: 18px;
+	box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
+	 inset -5px -5px 15px rgba(255,255,255,0.1),
+	 5px 5px 15px rgba(0,0,0,0.3),
+	 -5px -5px 15px rgba(255,255,255,0.1);
+}
+.main button{
+	padding: 10px 12px;
+	margin: 0 10px;
+    border-radius: 20%;
+}
+.main #logo{
+	position: absolute;
+	top: 10px;
+	left: 30px;
+	font-size: 25px;
+	color: #040404;
+}
+.main #logo i{
+	margin-right: 15px;
+}
+
